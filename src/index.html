@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>Site de bandas boas</title>
+</head>
+<body class="bg-zinc-900 cursor-pointer">
+  <section class="p-6 bg-zinc-800">
+    <div class="">
+        <h1 class="text-5xl text-white font-Underdog cursor-pointer float">Music</h1>
+        <p class="text-white font-NovaSquare">The music fills your soul</p>
+      </div>
+  </section>
+   <section class="flex flex-col flex-1 justify-center items-center">
+    <h1 class="text-4xl font-Underdog text-white m-8">♪ Top metal music ᯓ♪</h1>
+    <div class="bands bands flex flex-wrap justify-center gap-4">
+      
+      <div class="band p-4 flex flex-col items-center">
+      <img class="w-full max-w-120 h-135 object-cover border hover:scale-110 transition duration-800" src="./imagens/baixados (4).jpg" alt="banda type o negative">
+      <h2 class=" flex items-center justify-center text-white text-4xl font-NovaSquare m-8">Type o negative</h2>
+      <button  id="typeObutton" class="flex justify-center items-center border w-50 py-2 bg-zinc-700 text-white hover:scale-110 transition duration-600" type="button">▶︎ toque a musica</button>
+      <audio id="typeO" src="./Audios/typeOnegative.mp3"></audio>
+    </div>
+
+     <div class="band p-4 flex flex-col items-center">
+      <img class="w-full max-w-120 h-135 object-cover border hover:scale-110 transition duration-800" src="./imagens/KoRn 1994 ❤.jpg" alt="banda KoRn">
+       <h2 class=" flex items-center justify-center text-white text-4xl font-NovaSquare m-8">Korn</h2>
+        <button id="Kornbutton"class="flex justify-center items-center border w-50 bg-zinc-700 text-white hover:scale-110 transition duration-600 py-2" type="button">▶︎ toque a musica</button>
+         <audio id="Korn" src="./Audios/korn.mp3"></audio>
+      </div>
+
+    <div class="band p-4 flex flex-col items-center">
+      <img class="w-full max-w-120 h-135 object-cover border hover:scale-110 transition duration-800" src="./imagens/baixados (5).jpg" alt="banda KoRn">
+       <h2 class=" flex items-center justify-center text-white text-4xl font-NovaSquare m-8">System of a Down</h2>
+        <button  id="Soadbutton" class="flex justify-center items-center border w-50 bg-zinc-700 text-white hover:scale-110 transition duration-600 py-2" type="button">▶︎ toque a musica</button>
+         <audio id="soad" src="./Audios/soad.mp3"></audio>
+      </div>
+ </div>
+  </section>
+ 
+ <footer class="text-white text-center p-6">
+  <p>© 2026 Top Metal Music</p>
+
+  <p class="mt-2"> Projeto desenvolvido para estudar audio em Js</p>
+
+  <p class="mt-2"> Músicas, imagens e nomes dos artistas pertencem aos seus respectivos detentores de direitos autorais </p>
+   <p class="mt-2"> Feito por moky</p>
+</footer>
+ <script src="./script.js"></script>
+</body>
+</html>

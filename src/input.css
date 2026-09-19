@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Underdog&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-Underdog: "Underdog", sans-serif;
+    --font-NovaSquare: "Nova Square", sans-serif;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+
